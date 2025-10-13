@@ -10,5 +10,6 @@ public class SimpleRestController {
 	@RequestMapping("/article")
 	public String createArticle(@RequestParam("title") String title, @RequestParam("content") String content){
 		return title+"/"+content;
+		
 	}
 }
